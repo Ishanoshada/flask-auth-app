@@ -2,6 +2,8 @@
 
 
 ![GitHub contributors](https://img.shields.io/github/contributors/Ishanoshada/flask-auth-app)
+![Python Version](https://img.shields.io/badge/python-3.9-blue.svg)
+![Flask Version](https://img.shields.io/badge/flask-orange.svg)
 
 Welcome to the Flask Authentication App! This app empowers users to register and log in with ease. It incorporates advanced features like password hashing and CSRF protection for enhanced security.
 
@@ -55,6 +57,24 @@ We have exciting plans for the future! Expect features like email verification a
 1. **JSON**: Quick and easy setup, perfect for smaller applications. Data is stored in a JSON file (`users.json`).
 
 2. **MongoDB**: Offers scalability and robust querying capabilities. Requires a MongoDB instance to be running.
+
+
+
+**Repository Views** ![Views](https://profile-counter.glitch.me/flaskaluthappish/count.svg)
+
+## Contributing
+
+Contributions are welcome! If you encounter any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
+
+## Acknowledgments
+
+- Thanks to the Flask and MongoDB communities for providing excellent resources and documentation.
+- Inspiration for this project came from the need for a simple and secure real-time chat application.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 
 ---
 
