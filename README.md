@@ -1,8 +1,6 @@
-
-
 # 🌟 Flask Authentication App 🌟
 
-![GitHub repo size](https://img.shields.io/github/repo-size/Ishanoshada/flask-auth-app)
+![GitHub repo size](https://img.shields.io/github/repo-size/ishanoshada/flask-auth-app)
 ![GitHub contributors](https://img.shields.io/github/contributors/Ishanoshada/flask-auth-app)
 
 Welcome to the Flask Authentication App! This app empowers users to register and log in with ease. It incorporates advanced features like password hashing and CSRF protection for enhanced security.
