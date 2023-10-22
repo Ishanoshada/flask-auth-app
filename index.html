@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authentication App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Welcome to Authentication App</h1>
+
+    <!-- Registration Form -->
+    <form action="/register" method="post">
+        {{ registration_form.hidden_tag() }} <!-- Include hidden CSRF token -->
+        <div>
+            {{ registration_form.username.label }} <!-- Display label for username field -->
+            {{ registration_form.username }} <!-- Display username input field -->
+        </div>
+        <div>
+            {{ registration_form.password.label }} <!-- Display label for password field -->
+            {{ registration_form.password }} <!-- Display password input field -->
+        </div>
+        <div>
+            {{ registration_form.confirm_password.label }} <!-- Display label for confirm password field -->
+            {{ registration_form.confirm_password }} <!-- Display confirm password input field -->
+        </div>
+        <div>
+            {{ registration_form.submit }} <!-- Display submit button for registration form -->
+        </div>
+    </form>
+
+    <!-- Login Form -->
+    <form action="/login" method="post">
+        {{ login_form.hidden_tag() }} <!-- Include hidden CSRF token -->
+        <div>
+            {{ login_form.username.label }} <!-- Display label for username field -->
+            {{ login_form.username }} <!-- Display username input field -->
+        </div>
+        <div>
+            {{ login_form.password.label }} <!-- Display label for password field -->
+            {{ login_form.password }} <!-- Display password input field -->
+        </div>
+        <div>
+            {{ login_form.submit }} <!-- Display submit button for login form -->
+        </div>
+    </form>
+</body>
+</html>
